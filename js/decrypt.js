@@ -17,12 +17,12 @@ function decrypt(text) {
                     vocal = 'a' + text.charAt(i + 1);
                     if (vocal === "ai") {
                         decryptedText = decryptedText + 'a';
-                        i = i + (vocal.length - 1);
+                        i++;
                     }
                     break;
                 case 'e':
-                    vocal = 'e' + text.charAt(i + 1) + text.charAt(i + 2)  + text.charAt(i + 3)  + text.charAt(i + 4)  + text.charAt(i + 5)  + text.charAt(i + 6);
-                    if (vocal === "entrada") {
+                    vocal = 'e' + text.charAt(i + 1) + text.charAt(i + 2) + text.charAt(i + 3) + text.charAt(i + 4);
+                    if (vocal === "enter") {
                         decryptedText = decryptedText + 'e';
                         i = i + (vocal.length - 1);
                     }
@@ -60,3 +60,7 @@ function decrypt(text) {
     }
     return decryptedText;
 }
+
+// hola hermano como estas te quiero mucho me tengo que ir nos vemos
+
+// hoberlai henterrmainober cobermober enterstais tenter qufatimesenterrober mufatchober menter tenterngober qufatenter imesr nobers ventermobers
