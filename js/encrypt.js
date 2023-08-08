@@ -12,7 +12,6 @@ function buttonencrypt() {
 function crypt(text) {
     let cryptedText = "";
     for (let i = 0; i < text.length; i++) {
-        console.log(text.charAt(i));
         switch (text.charAt(i)) {
             case 'a': 
                 cryptedText = cryptedText + 'ai';
