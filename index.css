@@ -142,10 +142,7 @@ textarea:focus{
     gap: 8px;
     margin-top: 40px;
     flex-shrink: 0;
-    border: 2px solid blue
 }
-
-
 
 #figure{
     width: 336px;

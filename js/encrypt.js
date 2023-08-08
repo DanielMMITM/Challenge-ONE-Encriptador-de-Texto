@@ -1,12 +1,10 @@
 function buttonencrypt() {
-    let text = document.getElementById('encrypttext');
-    text = text.value;
+    let text = document.getElementById('encrypttext').value;
     text = crypt(text);
-    let response = document.getElementById("empty");
-    response.style.display = "none";
-    response = document.getElementById("response");
-    response.style.display = "block";
+    document.getElementById("empty").style.display = "none";
+    document.getElementById("response").style.display = "block";
     document.getElementById("cryptedText").textContent = text;
+    document.getElementById('encrypttext').value = "";
 }
 
 function crypt(text) {
