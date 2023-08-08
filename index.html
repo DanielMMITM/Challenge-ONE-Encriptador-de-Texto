@@ -5,29 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="./index.css">
+    <script src="./encrypt.js"></script>
+
 </head>
 <body>
     <section class="encriptador">
         <div class="leftSide">
             <img id="logo" src="./images/Logo.png" alt="Logo de Alura">
-            <textarea name="" id="" cols="30" rows="9" placeholder="Ingresa el texto aqui"></textarea>
+            <textarea name="" id="encrypttext" cols="30" rows="9" placeholder="Ingresa el texto aqui"></textarea>
             <div class="groupbtns">
                 <div class="warning">
                     <img class="warningIcon" src="./images/bi_exclamation-circle-fill.png" alt="icono de advertencia">
                     <span class="warningText">Solo letras minúsculas y sin acentos</span>
                 </div>
                 <div class="buttons">
-                    <button class="btn">Encriptar</button>
+                    <button class="btn" onclick='buttonencrypt()'>Encriptar</button>
                     <button class="btn2">Desencriptar</button>
                 </div>
             </div>
         </div>
         <div class="rightSide">
             <div class="boxContent">
-                <div class="response">
-
+                <div id="response">
+                    <div class="responseText">
+                        <span id="cryptedText"></span>
+                    </div>
+                    <button class="copybtn">Copiar</button>
                 </div>
-                <div class="empty">
+                <div id="empty">
                     <img id="figure" src="./images/Muñeco.png" alt="">
                     <h3 class="emptyTitle">Ningún mensaje fue encontrado</h3>
                     <span class="emptyText">Ingresa el texto que deseas encriptar o desencriptar</span>
@@ -35,6 +40,5 @@
             </div>
         </div>
     </section>
-    
 </body>
 </html>

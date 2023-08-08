@@ -79,6 +79,7 @@ textarea:focus{
 }
 
 .btn2{
+    background: none;
     justify-content: center;
     font-size: 20px;
     color: #0A3871;
@@ -107,6 +108,44 @@ textarea:focus{
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
+
+#response{
+    display: none;
+    width: 336px;
+    height: 781px;
+    flex-shrink: 0;
+    word-wrap: break-word;
+    margin: 10px;
+    padding: 20px;
+}
+
+.responseText{
+    color: #495057;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    height: 65%;
+}
+
+.copybtn{
+    justify-content: center;
+    font-size: 20px;
+    color: #0A3871;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    display: flex;
+    width: 328px;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 40px;
+    flex-shrink: 0;
+    border: 2px solid blue
+}
+
+
 
 #figure{
     width: 336px;
