@@ -7,9 +7,10 @@ Las llaves de encriptación fueron las siguientes:
  * La letra "a" es convertida para "ai"
  * La letra "o" es convertida para "ober"
  * La letra "u" es convertida para "ufat"
+
 Ejemplificado lo anterior un texto encriptado se vería así:
-+ "gato" => "gaitober"
-+ gaitober" => "gato"
+"gato" => "gaitober"
+gaitober" => "gato"
 
 # Requisitos:
   * Debe funcionar solo con letras minúsculas
